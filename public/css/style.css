@@ -38,5 +38,37 @@ ol {
     --secondary-color: #43121d;
     --third-color: #f98169;
     --white-color: #fff;
-    
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: 'Roboto' , snas-serif;
+    --secondry-font: 'Quicksand' , snas-serif;
+
  }
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+ body{
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+ }
+
+/* ===============
+    Custome scroll 
+=============== */
+
+::-webkit-scrollbar{
+    width: 0.625;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color)
+}
+
