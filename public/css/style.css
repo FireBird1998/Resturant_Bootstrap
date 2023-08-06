@@ -180,6 +180,12 @@ p{
     color: var(--white-color);
 }
 
+.navbar-toggler{
+    border: 0px none ;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
 /*
 ======================
     Header Design
@@ -228,4 +234,16 @@ p{
     background: var(--white-color);
     box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.9);
     transition: all .15s ease-in-out 0s;
+}
+/* 
+=========================
+    Top Baner Design
+========================= 
+*/
+
+.top-banner{
+    width: 100%;
+    background: url('../images/bg/bg-1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
 }
