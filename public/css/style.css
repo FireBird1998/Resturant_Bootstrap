@@ -213,3 +213,19 @@ p{
     color: var(--primary-color);
     letter-spacing: 1px;
 }
+
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.9);
+    transition: all .15s ease-in-out 0s;
+}
