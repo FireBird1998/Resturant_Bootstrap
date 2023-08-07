@@ -7,7 +7,14 @@ window.onscroll = function(){
         nav.classList.remove("scroll-on");
     }
 }
-
+//nav hide
+const navBar = document.querySelectorAll('.nav-link');
+const navCollapse = document.querySelector('.navbar-collapse.collapse');
+navBar.forEach(function(a){
+    a.addEventListener("click", () => {
+        navCollapse.classList.remove("show");
+    })
+})
 
 
 
