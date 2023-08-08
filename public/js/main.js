@@ -23,7 +23,7 @@ navBar.forEach(function(a){
 
 document.addEventListener("DOMContentLoaded", () => {
     function Counter(id, start, end, duration) {
-        var obj = document.getElementById(id),
+        let obj = document.getElementById(id),
         current = start,
         range = end - start,
         increment = end > start ? 1 : -1,
