@@ -283,3 +283,19 @@ p{
     padding-left: 2rem;
 }
 
+/*
+========================
+    food type section Design
+========================
+*/
+
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
