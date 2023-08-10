@@ -356,4 +356,27 @@ p{
     color: var(--text-gray);
     margin-left: 0.5rem;
 }
-
+/* 
+============================
+    Testomonial Section
+============================ */
+.testimonial-section{
+    background-color: var(--primary-color);
+}
+.testimonial-section .carousel-item{
+    margin-top: 3rem;
+    padding: 10rem 3.125rem;
+    background-color: var(--white-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+.testimonial-section .carousel-item img{
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+}
+.testimonial-section .carousel-item .carousel-caption p{
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding: 0 10% 0.625rem;
+}
