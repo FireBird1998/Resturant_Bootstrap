@@ -1,5 +1,6 @@
 @media (max-width: 1024px) {
-    
+    /*about section*/
+
 }
 
 @media (max-width: 991px) {
@@ -18,6 +19,11 @@
     }
     .top-banner{
         padding: 9.375rem 0 9.375rem;
+    }
+    /* Story section  */
+    .story-section{
+        height: auto;
+        padding: 3rem 0;    
     }
 }
 
