@@ -41,8 +41,23 @@
     .top-banner{
         padding: 10.875rem 0 9.375rem; 
     }
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
     .testimonial-section .carousel-item {
         padding: 11rem 3.125rem;
+    }
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
     }
 }
 
